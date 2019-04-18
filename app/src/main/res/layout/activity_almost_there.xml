@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/almost"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lightblue"
@@ -12,9 +13,9 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:layout_marginBottom="60dp"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginBottom="100dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -22,6 +23,7 @@
             android:gravity="center"
             android:text="Almost There"
             android:textColor="@color/background"
+            android:fontFamily="sans-serif-light"
             android:textSize="35sp" />
 
         <TextView
@@ -32,7 +34,8 @@
             android:text="@string/thankyou"
             android:textAlignment="center"
             android:textColor="@color/background"
-            android:textSize="13sp" />
+            android:fontFamily="sans-serif-light"
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/btn_Verify"

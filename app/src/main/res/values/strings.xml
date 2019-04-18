@@ -17,4 +17,6 @@
     <string name="home_address">Home Address</string>
     <string name="register2">REGISTER</string>
     <string name="thankyou">Thank you for registering with us. One more \n step, you need to check your email \n to active your account</string>
+    <string name="sendgreet">We have send verification code to your email</string>
+    <string name="codehint">enter verification code here...</string>
 </resources>

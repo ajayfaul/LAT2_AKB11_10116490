@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+
 /*
  * Created Bye
  *
@@ -21,13 +22,14 @@ import android.widget.Button;
 public class RegisterActivity extends AppCompatActivity {
 
     private Button btnregister;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
+        //Pengaturan FULLSCREEN
         View overlay = findViewById(R.id.reggister);
-
         overlay.setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                 | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
                 | View.SYSTEM_UI_FLAG_FULLSCREEN);

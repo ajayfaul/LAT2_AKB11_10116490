@@ -103,6 +103,7 @@
                 android:text="doesn't have account ?"
                 android:textAlignment="center"
                 android:textColor="@color/background"
+                android:fontFamily="sans-serif-light"
                 android:textSize="13sp" />
 
             <Button
