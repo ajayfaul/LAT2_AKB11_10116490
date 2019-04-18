@@ -5,5 +5,16 @@
     <string name="login">LOGIN</string>
     <string name="connect_with_facebook">CONNECT WITH FACEBOOK</string>
     <string name="or">OR</string>
-    <string name="belum_punya_akun"></string>
+    <string name="phone_number">Phone Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="default_location">Default Location</string>
+    <string name="agree">Agree With Terms and Conditions</string>
+    <string name="register">REGISTER</string>
+    <string name="tregister">Register</string>
+    <string name="email">Email</string>
+    <string name="personal">Personal</string>
+    <string name="home_address">Home Address</string>
+    <string name="register2">REGISTER</string>
+    <string name="thankyou">Thank you for registering with us. One more \n step, you need to check your email \n to active your account</string>
 </resources>

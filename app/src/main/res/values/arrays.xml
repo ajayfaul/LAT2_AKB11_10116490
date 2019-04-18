@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bloodtype">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+    <string-array name="reshus">
+        <item>Reshus</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="job">
+        <item>Job</item>
+        <item>Karyawan</item>
+        <item>Others...</item>
+    </string-array>
+</resources>

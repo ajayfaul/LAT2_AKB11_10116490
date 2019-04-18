@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loggin"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lightblue"
@@ -32,8 +33,10 @@
             android:backgroundTint="@color/background"
             android:hint="@string/username"
             android:inputType="text"
+            android:paddingBottom="20dp"
             android:textColor="@color/background"
-            android:textColorHint="@color/background" />
+            android:textColorHint="@color/background"
+            android:textSize="14sp" />
 
         <EditText
             android:id="@+id/edt_Password"
@@ -43,13 +46,15 @@
             android:backgroundTint="@color/background"
             android:hint="@string/password"
             android:inputType="textPassword"
+            android:paddingBottom="20dp"
             android:textColor="@color/background"
-            android:textColorHint="@color/background" />
+            android:textColorHint="@color/background"
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/btn_Login"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_below="@+id/edt_Password"
             android:layout_marginTop="20dp"
             android:background="@drawable/custombutton1"
@@ -71,7 +76,7 @@
         <Button
             android:id="@+id/btn_ConnectFB"
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_below="@+id/tv_OR"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
@@ -81,30 +86,39 @@
             android:paddingRight="55dp"
             android:text="@string/connect_with_facebook"
             android:textColor="@color/background"
-            android:textSize="16sp" />
+            android:textSize="14sp" />
 
-        <TextView
-            android:id="@+id/tv_DHAccount"
-            android:layout_width="150dp"
+        <LinearLayout
+            android:id="@+id/laytext_Register"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/btn_ConnectFB"
-            android:layout_alignParentLeft="true"
-            android:layout_marginStart="70dp"
-            android:layout_marginTop="20dp"
-            android:text="doesn't have account?"
-            android:textAlignment="center"
-            android:textColor="@color/background" />
+            android:layout_below="@id/btn_ConnectFB"
+            android:gravity="center_horizontal">
 
-        <TextView
-            android:id="@+id/btnRegister"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/btn_ConnectFB"
-            android:layout_marginTop="20dp"
-            android:layout_toRightOf="@+id/tv_DHAccount"
-            android:text="Register"
-            android:textColor="@color/background"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tv_DHAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="doesn't have account ?"
+                android:textAlignment="center"
+                android:textColor="@color/background"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="55dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textColor="@color/background"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
 
     </RelativeLayout>
 
