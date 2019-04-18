@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LAT2_AKB11_10116490</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="connect_with_facebook">CONNECT WITH FACEBOOK</string>
+    <string name="or">OR</string>
+    <string name="belum_punya_akun"></string>
+</resources>
